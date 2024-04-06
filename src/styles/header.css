@@ -11,8 +11,11 @@ header {
 }
 
 #nav_logo {
-  font-size: 20px;
-  color: white;
+  font-size: 35px;
+}
+p {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #nav_list {
@@ -23,17 +26,17 @@ header {
 
 .nav_item a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 .nav_item a:hover {
-  color: #9BA1A9;
+  color: #464a4f;
   transition: background-color 3s ease;
 }
 
 .nav_item.active a {
-  color: #9BA1A9;
-  border-bottom: 3px solid #747E8C;
+  color: #656a71;
+  border-bottom: 3px solid #747e8c;
 }
 
 #mobile_btn {
@@ -42,15 +45,18 @@ header {
 #mobile_menu {
   display: none;
 }
+#navbar span {
+  display: flex;
+  /* border: 1px solid red; */
+}
 
 @media screen and (max-width: 1170px) {
-
-    #nav_list{
-        display: none;
-    }
-    #navbar .btn-default{
-        display: none;
-    }
+  #nav_list {
+    display: none;
+  }
+  #navbar .btn-default {
+    display: none;
+  }
 
   #mobile_btn {
     display: block;

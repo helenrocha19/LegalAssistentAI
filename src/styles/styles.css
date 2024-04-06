@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color:#0F2139 ;
+    background-color: #9BA1A9 !important;
+}
+section{
+    padding: 28px 8%;
 }
 
 .btn-default{
@@ -24,4 +27,15 @@ body{
 
 .btn-default:hover{
     background-color: #9BA1A9;
+}
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+}
+#banner img{
+    height: 100%;
+    width: fit-content;
 }
