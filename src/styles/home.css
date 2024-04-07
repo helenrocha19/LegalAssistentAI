@@ -1,4 +1,4 @@
-#home{
+#home {
     display: flex;
     min-height: calc(100vh - 98px);
 }
